@@ -9,10 +9,10 @@ class Golden < Dog
   end 
   
   def dog_breed
-    unless hair_color == "gold"
-      "#{self.name}の犬種はゴールデンレトリバー以外"
-    else
+    if hair_color == "gold"
       "#{self.name}の犬種はゴールデンレトリバーです"
+    else
+      "#{self.name}の犬種はゴールデンレトリバーではありません"
     end 
   end
   
