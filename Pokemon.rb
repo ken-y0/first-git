@@ -10,7 +10,7 @@ module Nintendo
         end 
     
         def self.escape
-            puts "#{@@name_of_king}は逃げた"
+            p "#{@@name_of_king}は逃げた"
         end 
     end 
 end
