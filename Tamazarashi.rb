@@ -20,11 +20,11 @@ class Tamazarashi < Nintendo::Pokemon
     end 
 end 
 
- goma = Tamazarashi.new("Goma", 144, 76)
-# goma.show_status
+p goma = Tamazarashi.new("Goma", 144, 76)
+p goma.show_status
 # Tamazarashi.snow
 # Tamazarashi.escape
- goma.cry
+# goma.cry
  
   # puts goma.class
   # puts goma.class.superclass
