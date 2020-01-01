@@ -4,7 +4,7 @@ class Tamazarashi < Nintendo::Pokemon
     @@name_of_dictionary = "タマザラシ"
     
     def show_status
-        puts "
+        p "
         種類：#{@@name_of_king}
         名前：#{@@name_of_dictionary}
         ニックネーム：#{@nickname}
@@ -13,7 +13,7 @@ class Tamazarashi < Nintendo::Pokemon
     end 
     
     def self.snow 
-        puts "#{@@name_of_dictionary}のこなゆき"
+        p "#{@@name_of_dictionary}のこなゆき"
     end 
     def cry
       Tamazarashi.snow
